@@ -8,4 +8,11 @@ while True:
     # Ask user for input
     num = int(input("Enter a number: "))
     
-   
+    # Check for value (-1)
+    if num == -1:
+    # display sum
+        print("Sum of numbers: ", sum)
+        break
+    else:
+        # Add input to sum
+        sum += num
